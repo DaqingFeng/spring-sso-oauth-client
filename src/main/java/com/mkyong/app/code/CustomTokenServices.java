@@ -15,7 +15,7 @@ import javax.swing.plaf.PanelUI;
  */
 @Component
 @PropertySource(value = "classpath:application.properties")
-public class CustomTokenServices  {
+public class CustomTokenServices   {
 
     @Value("${config.oauth2.clientID}")
     private String appId;
